@@ -1,0 +1,157 @@
+INSERT INTO titulos VALUES (1,'Licenciado en medicina');
+INSERT INTO titulos VALUES (2,'Farmaceutico');
+INSERT INTO titulos VALUES (3,'Licenciado en enfermeria');
+INSERT INTO titulos VALUES (4,'Medico especialista');
+INSERT INTO titulos VALUES (5,'Doctor en medicina');
+
+INSERT INTO especialidad VALUES (1, 'Familiar y Comunitaria');
+INSERT INTO especialidad VALUES (2, 'Medicina Interna');
+INSERT INTO especialidad VALUES (3, 'Cardiologia');
+INSERT INTO especialidad VALUES (4, 'Ginecologia');
+INSERT INTO especialidad VALUES (5, 'Fisioterapia');
+
+INSERT INTO alergias_alimentos VALUES (1, 'Cebolla');
+INSERT INTO alergias_alimentos VALUES (2, 'Mariscos');
+INSERT INTO alergias_alimentos VALUES (3, 'Brocoli');
+INSERT INTO alergias_alimentos VALUES (4, 'Carne roja');
+INSERT INTO alergias_alimentos VALUES (5, 'Huevo');
+
+INSERT INTO alergias_medicamentos VALUES (1,'Penicilina');
+INSERT INTO alergias_medicamentos VALUES (2,'Insulina');
+INSERT INTO alergias_medicamentos VALUES (3,'Sulfamidas');
+INSERT INTO alergias_medicamentos VALUES (4,'Naproxeno');
+INSERT INTO alergias_medicamentos VALUES (5,'Ibuprofeno');
+
+INSERT INTO tipo_sangre VALUES (1,'A+');
+INSERT INTO tipo_sangre VALUES (2,'A-');
+INSERT INTO tipo_sangre VALUES (3,'B+');
+INSERT INTO tipo_sangre VALUES (4,'B-');
+INSERT INTO tipo_sangre VALUES (5,'AB+');
+INSERT INTO tipo_sangre VALUES (6,'AB-');
+INSERT INTO tipo_sangre VALUES (7,'O+');
+INSERT INTO tipo_sangre VALUES (8,'O-');
+
+INSERT INTO Servicio VALUES(1, 50, '13:00-17:00', 'Certificado medico');
+INSERT INTO Servicio VALUES(2, 82, '12:00-18:00', 'Consulta');
+INSERT INTO Servicio VALUES(3, 100, '14:00-16:00', 'Lectura resultados');
+INSERT INTO Servicio VALUES(4, 40, '15:00-16:00', 'Inyecciones');
+INSERT INTO Servicio VALUES(5, 30, '12:00-18:00', 'Orientacion medica');
+
+INSERT INTO distribuidor VALUES (1, 'VICMA', 5556493232, 'www.vicma.com');
+INSERT INTO distribuidor VALUES (2, 'Comercializadora LINI', 5534888355, 'www.lini.com.mx');
+INSERT INTO distribuidor VALUES (3, 'Distribuidora EMFAMEDI', 3322564630, 'NINGUNO');
+
+INSERT INTO tipo_medicamento VALUES (1, 'Patente');
+INSERT INTO tipo_medicamento VALUES (2, 'Generico');
+INSERT INTO tipo_medicamento VALUES (3, 'Similares');
+
+INSERT INTO color_medicamento VALUES (1, 'Rojo');
+INSERT INTO color_medicamento VALUES (2, 'Amarillo');
+INSERT INTO color_medicamento VALUES (3, 'Azul');
+INSERT INTO color_medicamento VALUES (4, 'Verde');
+INSERT INTO color_medicamento VALUES (5, 'Blanco');
+INSERT INTO color_medicamento VALUES (6, 'Negro');
+INSERT INTO color_medicamento VALUES (7, 'Naranja');
+INSERT INTO color_medicamento VALUES (8, 'Gris');
+INSERT INTO color_medicamento VALUES (9, 'Morado');
+
+INSERT INTO ubicacion VALUES (1,'Estanteria');
+INSERT INTO ubicacion VALUES (2,'Bodega');
+
+INSERT INTO turno VALUES (1,'Matutino');
+INSERT INTO turno VALUES (2,'Vespertino');
+INSERT INTO turno VALUES (3,'HCompleto');
+
+INSERT INTO estudios VALUES (1,1,1,'Licenciado');
+INSERT INTO estudios VALUES (2,2,2,'Licenciado');
+INSERT INTO estudios VALUES (3,4,5,'Doctorado');
+
+INSERT INTO antecedentes VALUES(1, 5, 3, 8, 100, 'Remocion apendice');
+INSERT INTO antecedentes VALUES(2, 4, 2, 6, 80, 'N/A');
+INSERT INTO antecedentes VALUES(3, 5, 1, 1, 95, 'Banda gastrica');
+INSERT INTO antecedentes VALUES(4, 2, 2, 4, 100, 'Transplante de organo');
+INSERT INTO antecedentes VALUES(5, 1, 3, 7, 77, 'Remocion amigdalas');
+
+INSERT INTO paciente VALUES(1, 5, 153, 'Fernando Morales Rodriguez');
+INSERT INTO paciente VALUES(2, 2, 180, 'Laura Miramontes Trejo');
+INSERT INTO paciente VALUES(3, 3, 160, 'Teodoro Sanchez Laureles');
+INSERT INTO paciente VALUES(4, 4, 172, 'Ernesto Angeles Flores');
+INSERT INTO paciente VALUES(5, 1, 173, 'Juan Nieto Piedra');
+
+INSERT INTO personal VALUES(1, 'Maria', 'Torres', 'Bolivares', 'Cerrada Ciruelos Cuathemoc Coacalco no 45', 3, 3, 25,  5681452358, 'cuarriparrabonita@gmail.com');
+INSERT INTO personal VALUES(2, 'Luis', 'Gonzales', 'Parrilla', 'Prados sur casa 45 colonia mercado flores', 2, 1, 28,  5648521330, 'LuisGoPa@outlook.com');
+INSERT INTO personal VALUES(3, 'Gimena', 'Flores', 'Castillo', 'Metro indios verdes colonia norte condominio 15', 3, 1, 50,  5512894556, 'nekokawaii123@yahoo.com');
+INSERT INTO personal VALUES(4, 'Mireya', 'Narciso', 'Benitez', 'Centro cosmo condominio 3 coacalco', 1, 2, 40,  5685469135, 'narcisomire@gmail.com');
+INSERT INTO personal VALUES(5, 'Fernando', 'Torres', 'Sanchez', 'Fuentes del valle colonia universidad no 120', 1, 2, 32,  5511453282, 'fernandotorressanchez@outlook.com');
+
+INSERT INTO cita VALUES(1, 5, 65, 3,  5, 2, 36);
+INSERT INTO cita VALUES(2, 3, 70, 5,  2, 1, 37);
+INSERT INTO cita VALUES(3, 2, 50, 4,  5, 2, 38);
+INSERT INTO cita VALUES(4, 1, 59, 2,  4, 1, 36);
+INSERT INTO cita VALUES(5, 4, 61, 1,  1, 1, 35);
+
+INSERT INTO presentacion VALUES(1, 'Pastillas', 1, 1);
+INSERT INTO presentacion VALUES(2, 'Capsulas', 2, 2);
+INSERT INTO presentacion VALUES(3, 'Inyeccion', 3, 3);
+INSERT INTO presentacion VALUES(4, 'Parches', 1, 4);
+INSERT INTO presentacion VALUES(5, 'Inhalador', 20, 5);
+
+INSERT INTO medicamentos VALUES (1,'Losartan', 1, 200, 10, 1, 20, '2025', 1);
+INSERT INTO medicamentos VALUES (2,'Valaciclovir Pharmagen', 1, 50, 8, 2, 10, '2022', 1);
+INSERT INTO medicamentos VALUES (3,'Sertralina', 1, 180, 8, 1, 10, '2023', 1);
+INSERT INTO medicamentos VALUES (4,'Paroxetina', 2, 90, 5, 1, 18, '2026', 1);
+INSERT INTO medicamentos VALUES (5,'Valsartan', 1, 240, 5, 2, 15, '2025', 1);
+INSERT INTO medicamentos VALUES (6,'Sildenafil', 2, 175, 10, 1, 30, '2022', 2);
+INSERT INTO medicamentos VALUES (7,'Atorvastatina', 1, 70, 8, 2, 25, '2021', 1);
+INSERT INTO medicamentos VALUES (8,'Keterolaco', 2, 65, 8, 1, 15, '2022', 1);
+INSERT INTO medicamentos VALUES (9,'Salbutamol', 2, 80, 12, 1, 30, '2023', 2);
+INSERT INTO medicamentos VALUES (10,'Acido Folico', 3, 20, 20, 1, 50, '2025', 1);
+INSERT INTO medicamentos VALUES (11,'Otros Modafinilo', 1, 40, 10, 2, 18, '2024', 1);
+INSERT INTO medicamentos VALUES (12,'Eutirox Pantoprazol', 2, 75, 4, 3, 20, '2023', 1);
+INSERT INTO medicamentos VALUES (13,'Sumatriptan', 1, 95, 8, 1, 30, '2023', 2); 
+INSERT INTO medicamentos VALUES (14,'Penicilina V Potasico', 1, 200, 2, 3, 20, '2025', 1); 
+INSERT INTO medicamentos VALUES (15,'Ibuprofeno', 2, 50, 12, 2, 80, '2023', 1);
+INSERT INTO medicamentos VALUES (16,'Paracetamol', 1, 40, 24, 1, 120, '2022', 1);
+INSERT INTO medicamentos VALUES (17,'Pepto-Bismol', 3, 30, 24, 1, 70, '2022', 1);
+INSERT INTO medicamentos VALUES (18,'Omeprazol', 3, 30, 12, 2, 95, '2024', 1);
+INSERT INTO medicamentos VALUES (19,'Naproxeno', 2, 70, 12, 1, 80, '2026', 1);
+INSERT INTO medicamentos VALUES (20,'Meloxicam', 1, 80, 2, 3, 30, '2025', 1);
+
+INSERT INTO orden_medicamento VALUES(1, 500, 1);
+INSERT INTO orden_medicamento VALUES(2, 400, 3);
+INSERT INTO orden_medicamento VALUES(3, 200, 4);
+INSERT INTO orden_medicamento VALUES(4, 600, 2);
+INSERT INTO orden_medicamento VALUES(5, 1000, 5);
+
+INSERT INTO pedido VALUES(1, '10/03/2021', 1, 4, 2);
+INSERT INTO pedido VALUES(2, '01/04/2021', 2, 5, 4);
+INSERT INTO pedido VALUES(3, '30/04/2021', 2, 2, 5);
+INSERT INTO pedido VALUES(4, '02/05/2021', 3, 1, 4);
+INSERT INTO pedido VALUES(5, '05/05/2021', 1, 3, 5);
+
+INSERT INTO prescripcion VALUES(1, 1, 'tomar cada 8 horas por 6 dias');
+INSERT INTO prescripcion VALUES(2, 15, 'tomar cada 8 horas por 4 dias');
+INSERT INTO prescripcion VALUES(3, 16, 'tomar cada 8 horas por 6 dias');
+INSERT INTO prescripcion VALUES(4, 19, 'tomar cada 12 horas por 8 dias');
+INSERT INTO prescripcion VALUES(5, 8, 'tomar cada 8 horas por 3 dias');
+INSERT INTO prescripcion VALUES(6, 13, 'tomar cada 12 horas por 6 dias');
+
+INSERT INTO receta VALUES(1, 5, 4, 5, '05/04/2021');
+INSERT INTO receta VALUES(2, 4, 2, 3, '06/04/2021');
+INSERT INTO receta VALUES(3, 2, 4, 2, '08/04/2021');
+INSERT INTO receta VALUES(4, 4, 5, 1, '09/04/2021');
+INSERT INTO receta VALUES(5, 5, 1, 5, '12/04/2021');
+
+INSERT INTO ventas VALUES(1, 1, '08/04/2021', 160);
+INSERT INTO ventas VALUES(2, 5, '09/04/2021', 240);
+INSERT INTO ventas VALUES(3, 3, '11/04/2021', 100);
+INSERT INTO ventas VALUES(4, 3, '12/04/2021', 100);
+INSERT INTO ventas VALUES(5, 2, '12/04/2021', 290);
+
+INSERT INTO detalle_ventas VALUES(1, 8, 'Keterolaco', 65, 2, 130, 1);
+INSERT INTO detalle_ventas VALUES(2, 18, 'Omeprazol', 30, 1, 30, 1);
+INSERT INTO detalle_ventas VALUES(3, 5, 'Valsartan', 240, 1, 240, 2);
+INSERT INTO detalle_ventas VALUES(4, 10, 'Acido Folico', 20, 5, 100, 3);
+INSERT INTO detalle_ventas VALUES(5, 15, 'Ibuprofeno', 50, 2, 100, 4);
+INSERT INTO detalle_ventas VALUES(6, 4, 'Paroxetina', 90, 1, 90, 5);
+INSERT INTO detalle_ventas VALUES(7, 1, 'Losartan', 200, 1, 200, 5);
